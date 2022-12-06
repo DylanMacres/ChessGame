@@ -34,7 +34,7 @@ return(
 
               <div className="mb-3">
                 <div className="cutom-control custom-checkbox">
-                  <input type="checkbox" className="custom-control-input" id="cb1" name=""/>
+                <button onClick={()=>navigate("/chat")} classNameName="button1">Click Me To Log In!</button>
                   <label className="custom-control-label" for="cb1"> Remember me</label>
                 </div>
               </div>
@@ -42,9 +42,9 @@ return(
 
 
               <div className="mb-3">
-                <button type="submit" className="btn btn-block text-uppercase">
+                {/* <button type="submit" className="btn btn-block text-uppercase">
                   Login
-                </button>
+                </button> */}
               </div>
 
               <div className="text-center mb-3">
