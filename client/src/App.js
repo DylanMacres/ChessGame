@@ -6,7 +6,7 @@ import { Chessboard } from 'react-chessboard';
 import './App.css';
 import '../src/assets/login.css'
 import LogIn from "./components/loginpage";
-import jQuery from "jquery";
+// import jQuery from "jquery";
 import {
   ApolloClient,
   InMemoryCache,
