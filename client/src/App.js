@@ -50,7 +50,7 @@ function App() {
          
             <Route path="/chess" element={<Chessboard className = "board"/>}></Route>
             <Route path="/" element={<Home socket={socket}/>}></Route>
-            <Route path="/home" element={<LogIn socket={socket} jQuery/>}></Route>
+            <Route path="/login" element={<LogIn socket={socket} jQuery/>}></Route>
             <Route path="/chat" element={<ChatPage socket={socket}/>}></Route>
           </Routes>
     </div>
