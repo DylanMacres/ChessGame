@@ -49,8 +49,8 @@ function App() {
           <Routes>
          
             <Route path="/chess" element={<Chessboard className = "board"/>}></Route>
-            <Route path="/" element={<Home socket={socket}/>}></Route>
-            <Route path="/login" element={<LogIn socket={socket} jQuery/>}></Route>
+            <Route path="/" element={<LogIn socket={socket}/>}></Route>
+            <Route path="/home" element={<Home socket={socket} jQuery/>}></Route>
             <Route path="/chat" element={<ChatPage socket={socket}/>}></Route>
           </Routes>
     </div>
