@@ -34,7 +34,7 @@ return(
 
               <div className="mb-3">
                 <div className="cutom-control custom-checkbox">
-                <button onClick={()=>navigate("/chat")} className="button1">Click Me To Log In!</button>
+                <button onClick={()=>navigate("/chat")} classNameName="button1">Click Me To Log In!</button>
                   <label className="custom-control-label" for="cb1"> Remember me</label>
                 </div>
               </div>
